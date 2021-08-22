@@ -1,0 +1,50 @@
+#!/bin/bash
+echo "Trying to start scrcpy in screen ''scrcpy''..."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####################################################
+#            scrcpy environment variables
+# sndcpy environment variables can be edited in sndcpy/sndcpy.sh
+
+screen -A -m -d -S scrcpy scrcpy #--v4l2-sink=/dev/videoN
+
+# https://github.com/Genymobile/scrcpy#v4l2loopback
+# Uncomment the environment variable and put in the right video device to send the video to a virtual webcam.
+# You could also use this to add more.
+#####################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo If you have scrcpy installed, it should be running right now...
+echo "Trying to start sndcpy in screen ''sndcpy''..."
+cd sndcpy
+screen -A -m -S sndcpy ./sndcpy.sh
+cd ..
+echo "------------------------------------------------------"
+echo "Done. Now you should see a window with the screen of your Android device and hear the sound from it. If something didn't work, check that you have all USB debugging options in Developer settings enabled, check that the device is connected and that you didn't deny any actions presented to you in any dialog that could've appeared. If you still have problems, try it again a few times or you could contact me on Discord (JustLeader#5532) and I'll be glad to help and if it was a problem with the script, I'll fix it too."
+echo "To exit scrcpy it should be enough to close the window with the phone's screen. If you want to close sndcpy (end sound share), open the notifications area on your phone, find the notification from sndcpy and press ''Stop''. Or you could type ''screen -r sndcpy'' and press CTRL+C."
