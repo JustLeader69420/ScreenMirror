@@ -14,9 +14,9 @@ A script for scrcpy and sndcpy by rom1v to run simultaneously with a single comm
 [scrcpy]: https://github.com/Genymobile/scrcpy
 
 ## Where this won't work
- - See [this]
+ - See [this1]
 
-[this]: https://github.com/rom1v/sndcpy#apps-restrictions
+[this1]: https://github.com/rom1v/sndcpy#apps-restrictions
 
 ## How to use this
  1. Download all the files and put them in a folder. (Download as zip or use "git clone https://github.com/JustLeader69420/ScreenMirror")
