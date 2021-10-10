@@ -1,6 +1,8 @@
 # ScreenMirror
 A script for scrcpy and sndcpy by rom1v to run simultaneously with a single command.
 
+# Didn't do anything on this for a while, don't need it for anything either, it's just here incase somebody needs it or something. Won't provide support for this.
+
 ## Requirements
  - The Android device requires at least Android 10.
  - [VLC] must be installed on the computer.
